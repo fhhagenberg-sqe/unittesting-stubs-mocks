@@ -40,9 +40,9 @@ This exercise emphasizes the topic of testability.
 
 ## Effective Unit Testing with Design for Testability _(2 points)_
 
-When writing a unit test is technically hard or impossible, this is often an indicator that the design of the code you want to test is not testable and, thus, should be refactored. Read the chapter on testable design from Lasse Koskela: Effective Unit Testing (Manning Publications, 2013). The chapter explains typical testability issues that block unit testing and provides guidelines for testable design.
+When writing a unit test is technically hard or impossible, this is often an indicator that the design of the code you want to test is not testable and, thus, should be refactored. Read the chapter on testable design from Lasse Koskela: _Effective Unit Testing_ (Manning Publications, 2013). The chapter explains typical testability issues that block unit testing and provides guidelines for testable design.
 
-Read the entire chapter. Select one of the guidelines for testable design (7.3), which you think is the most useful for you. “Promise to yourself” that you will always develop according to this guideline in future!
+Read the entire chapter. Select one of the guidelines for testable design (7.3), which you think is the most useful for you. 'Promise to yourself' that you will always develop according to this guideline in future!
 
 ### Question: Which guideline have you selected? Why?
 
