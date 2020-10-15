@@ -31,7 +31,7 @@ Please note:
 - See `SimpleMockTest.java` for a very simple example of how to use Mockito:
     - Annotate your test class with `@ExtendWith(MockitoExtension.class)` to be able to use the `@Mock` annotation.
     - Use the annotation `@Mock` to automatically create a mock.
-- Create the mock object for the interface Observer by using the library. Detailed instructions can be found in the documentation available online at https://javadoc.io/static/org.mockito/mockito-core/3.1.0/org/mockito/Mockito.html.
+- Create the mock object for the interface Observer by using the library. Detailed instructions can be found in the documentation available online at https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html.
 - Follow the instructions from the previous example if applicable.
 
 # Design for Testability
