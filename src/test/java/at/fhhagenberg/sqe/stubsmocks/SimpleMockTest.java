@@ -13,17 +13,17 @@ import org.mockito.junit.jupiter.MockitoExtension;
 @ExtendWith(MockitoExtension.class)
 public class SimpleMockTest {
     @Mock
-    List<String> list;
+    List<String> mockedList;
 
     @Test
     public void testMock() {
-        Mockito.when(list.size()).thenReturn(3);
-        list.add("X");
-
-        assertEquals(3, list.size());
+        Mockito.when(mockedList.get(0)).thenReturn("first");
+		
+        mockedList.add("first");
+        assertEquals("first", mockedList.get(0));
 
         // verify method calls
-        Mockito.verify(list).size();
-        Mockito.verify(list).add("X");
+        Mockito.verify(mockedList).get(0);
+        Mockito.verify(mockedList).add("first");
     }
 }
